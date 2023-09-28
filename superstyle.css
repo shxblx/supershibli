@@ -1,0 +1,491 @@
+@font-face {
+    font-family:headline ;
+    src: url(fonts/supercellheadline-bold.255a05d6.woff2);
+}
+   @font-face {
+    font-family:heavy ;
+    src: url(fonts/supercellheadline-heavy.ae61f14f.woff2);
+   }
+   @font-face {
+    font-family: suptext;
+    src: url(fonts/supercelltext_w_bd.26c41907.woff);
+   }
+   @font-face {
+    font-family:suptext2 ;
+    src: url(fonts/supercelltext_w_md.01ac8b8d.woff2);
+   }
+@font-face {
+    font-family:suptext3 ;
+    src: url(fonts/supercelltext_w_rg.48b6e505.woff);
+}
+
+.navbar
+{
+    display: flex;
+    background-color: black;
+    height: 79px;
+    margin-top: -10px;
+    width: 1200px;
+    margin-left: 150px;
+    position: absolute;
+}
+.navbar p
+{
+    color:#808080;
+    font-family: suptext2;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.navbar :hover
+{
+    color: white;
+}
+.navbar img
+{
+    height: 43.73px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.container
+{
+    background-image: url(images/frontpage_hero.246340a2.jpg);
+    background-size: cover;
+    background-position: 10px;
+    width: 100%;
+    height: 580px;
+}
+.icon-c{
+    width:26px;
+    height:26px;
+}
+.supercelltext
+{
+font-family: heavy;
+font-size: 40px;
+    margin-left: 42%;
+    margin-top: -23%;
+}
+.supernote
+{
+    color: black;
+    text-align: center;
+    font-family: suptext3;
+    font-size: 18px;
+    margin-top: -15px;
+}
+.see{
+    background-color: #1a75ff;
+    width: 148.78px;
+    height: 45.45px;
+    border-radius: 25px;
+    margin-left: 45%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+.see2
+{
+    background-color:#1f7aea;
+    width: 50px;
+    height: 45.45px;
+    border-radius: 25px 0px 0px 25px;
+    margin-left: 45%;
+    margin-top: -3%;cursor: pointer;
+}
+.seel{
+    font-family: suptext;
+    font-size: 13px;
+    margin-left: 48.8%;
+    margin-top: -2.1%;
+    color: white;cursor: pointer;
+}
+.arrowimg
+{
+margin-left: 46%;
+margin-top: -2.4%;
+cursor: pointer;
+}
+.imgset
+{
+    display: flex;
+    height: 440.7px;
+    margin-left: 8%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+.imgset img
+{
+    margin-left: 30px;
+}
+.news
+{
+    color:#fb3292;
+    font-family: suptext;
+    display: flex;
+    margin-left: -11%;
+}
+.news p{
+    margin-left: 35%;
+}
+.flood
+{
+    color:black;
+    font-family: suptext2;
+    display: flex;
+    margin-left: -5%;
+    font-size:20px ;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.flood p{
+    margin-left: 22%;
+}
+.imgset2
+{
+    display: flex;
+    height: 440.7px;
+    margin-left: 8%;
+    margin-top: 3%;
+    cursor: pointer;
+    
+}
+.imgset2 img
+{
+    margin-left: 30px;
+
+}
+.news2
+{
+    color:#fb3292;
+    font-family: suptext;
+    display: flex;
+    margin-left: -11%;
+}
+.news2 p{
+    margin-left: 35%;
+}
+.flood2
+{
+    color:black;
+    font-family: suptext2;
+    display: flex;
+    margin-left: 1%;
+    font-size:20px ;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.flood2 p{
+    margin-left: 12%;
+}
+.imgset3
+{
+    display: flex;
+    height: 440.7px;
+    margin-left: 8%;
+    margin-top: 3%;cursor: pointer;
+}
+.imgset3 img
+{
+    margin-left: 30px;
+}
+.news3
+{
+    color:#fb3292;
+    font-family: suptext;
+    display: flex;
+    margin-left: -11%;
+}
+.news3 p{
+    margin-left: 35%;
+}
+.flood3
+{
+    color:black;
+    font-family: suptext2;
+    display: flex;
+    margin-left: 9%;cursor: pointer;
+    font-size:20px ;
+    margin-top: -25px;
+}
+.flood3 p{
+    margin-left: 12%;
+}
+.archive
+{
+    width: 150px;
+    height: 44px;
+    background-color: #1f7aea;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 60px;cursor: pointer;
+}
+.archive p
+{
+    font-family: suptext;
+    font-size: 13px;
+    color: white;
+    margin-left: 25px;
+    padding-top: 13px;
+}
+.imgback
+{
+    margin-left: -10px;
+    width: 1520px;
+    margin-top: 3%;
+}
+.nita
+{
+    width: 585px;
+    height: 585px;
+    margin-left: 50%;
+    margin-top: -40%;
+}
+.games
+{
+    font-family: heavy;
+    font-size: 35px;
+    margin-left: 12.5%;
+    margin-top: -26.5%;
+    color: white;
+}
+.supnote2{
+    color:white;
+    font-family: suptext3;
+    font-size: 20px;
+    margin-left: 12.5%;
+
+}
+.whiteb
+{
+    background-color:white;
+    width: 115px;
+    height: 51px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 12.5%;
+    margin-top: 50px;
+}
+.seegames
+{
+    font-family: suptext;
+    font-size: 13px;
+    padding-left: 18px;
+    padding-top: 5px;cursor: pointer;
+}
+.blueback
+{
+    background-color: #1a75ff;
+    height: 592px;
+    margin-top: 16.5%;
+    width: 1520px;
+    margin-left: -10px;
+}
+.minipekka
+{
+    width: 585px;
+    height: 585px;
+    margin-left: 10%;
+}
+.careers
+{
+    font-family: heavy;
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: -26.5%;
+    color: white;cursor: pointer;
+}
+.supnote21{
+    color:white;
+    font-family: suptext3;
+    font-size: 20px;
+    margin-left: 50%;
+
+}
+.whiteb1
+{
+    background-color:white;
+    width: 115px;
+    height: 51px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 49.5%;
+    margin-top: 40px;
+}
+.seegames
+{
+    font-family: suptext;
+    font-size: 13px;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+.grey
+{
+    background-color:#f2f2f2;
+    margin-top: 160%;
+    width: 1520px;
+    height: 928px;
+    margin-left: -660%;
+}
+.mobilegamer
+{
+    width: 583px;
+    height: 325px;
+    margin-left: -500%;
+    margin-top: -700%;
+    position: absolute;
+}
+.pocketgamer
+{
+    width: 583px;
+    height: 325px;
+    margin-left: 30%;
+    margin-top: -700%;
+    position: absolute;
+}
+.firstwhite
+{
+    background-color: white;
+    width: 583px;
+    height: 377px;
+    position: absolute;
+    margin-left:-500% ;
+    margin-top: -418%;
+}
+.secondwhite
+{
+    background-color: white;
+    width: 583px;
+    height: 377px;
+    position: absolute;
+    margin-left:30%;
+    margin-top: -418%;
+}
+.sup1
+{
+    display: flex;
+    font-family: suptext2;
+    margin-left: -450%;
+    margin-top: -380%;
+    position: absolute;
+    font-size: 20px;
+}
+.sup1p
+{
+    display: flex;
+    font-family: suptext3;
+    margin-left: -450%;
+    margin-top: -320%;
+    position: absolute;
+    font-size: 17px;
+}
+.sup2
+{
+    display: flex;
+    font-family: suptext2;
+    margin-top: -380%;
+    position: absolute;
+    font-size: 20px;
+    margin-left:75%;
+    width: 500px;
+    height: 59px;
+}
+.sup2p
+{
+    display: flex;
+    font-family: suptext3;
+    margin-top: -320%;
+    position: absolute;
+    font-size: 17px;
+    width: 500px;
+    margin-left: 75%;
+}
+.r1
+{
+    color: #1a75ff;
+    font-family: suptext;
+    width: 200px;
+    margin-left: -450%;
+    margin-top: -150%;
+    position: absolute;cursor: pointer;
+}
+.r2
+{
+    color: #1a75ff;
+    font-family: suptext;
+    width: 200px;
+    margin-left: 75%;
+    margin-top: -230%;
+    position: absolute;cursor: pointer;
+}
+.endback
+{
+    background-color: black;
+    height: 469px;
+    width: 1520px;
+    margin-left: -660%;
+}
+.follow
+{
+    color: white;
+    font-family: suptext;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -380%;
+    margin-left: -450%;
+}
+.social
+{
+    position: absolute;
+    height: 25px;
+    display: flex;
+    margin-top: -350%;
+    margin-left: -465%;cursor: pointer;
+}
+.social img{
+    margin-left:15px ;
+}
+.line
+{
+    margin-top: -300%;
+    color: white;
+    width: 1000px;
+   margin-left: -450%;
+}
+.finaltext
+{
+    display: flex;
+    color: white;
+    font-family: suptext;
+    font-size: 12px;
+    position: absolute ;cursor: pointer;
+    margin-left: -450%;
+
+}
+.finaltext p{
+    margin-left: -1%;
+    width: 150px;
+}
+.lasticon
+{
+    display: flex;
+    height: 50px;
+    margin-left: 150%;
+    margin-top: -80%;cursor: pointer;
+}
+.lasticon img{
+    margin-left: 10px;
+}
+.sup123{
+    margin-left: 400%;
+    margin-top: 140%;
+}
+.lastext
+{
+    color: grey;
+    position: absolute;
+    font-size: 10px;
+    font-family: suptext;
+    margin-left: -450%;
+    margin-top: -100%;
+}
